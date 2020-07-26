@@ -11,7 +11,7 @@
   "dependencies": {
     "bufferutil": "^4.0.1",
     "discord.js": "^11.6.4",
-    "ffmepg": "0.0.2-security",
+    "ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^4.0.0",
     "opusscript": "0.0.6",
     "simple-youtube-api": "^5.2.1",
