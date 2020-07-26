@@ -30,6 +30,10 @@ Once finished:
 
 **Remember to never share your token with anyone!**
 
+## Getting your youtube api token
+
+https://developers.google.com/youtube/v3/getting-started
+
 ## Starting the bot
 
 To start the bot, in the command prompt, run the following command:
