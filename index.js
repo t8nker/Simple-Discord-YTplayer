@@ -1,10 +1,12 @@
+
 const { Client, Util } = require('discord.js');
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./youtubeconfig');
 const YouTube = require('simple-youtube-api');
-const ytdl = require('ytdl-core);
+const ytdl = require('ytdl-core');
 const client = new Client();
-const youtube = new YouTube(GOOGLE_API_KEY)
-const queue = new Map();;
+const youtube = new YouTube(GOOGLE_API_KEY);
+const queue = new Map();
+
 
 
 client.on('message', async msg => { // eslint-disable-line
@@ -179,7 +181,10 @@ function play(guild, song) {
 	serverQueue.textChannel.send(` Start playing: **${song.title}**`);
 
  }
-  client.on('ready', () =>
+
+//---------------------------------------------------------------------------------------------
+
+ client.on('ready', () =>
  {
      // We can post into the console that the bot launched.
      console.log('Bot started.');
@@ -187,4 +192,3 @@ function play(guild, song) {
 });
 
 client.login(TOKEN);
-
