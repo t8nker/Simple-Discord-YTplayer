@@ -38,7 +38,8 @@ https://developers.google.com/youtube/v3/getting-started
 
 To start the bot, in the command prompt, run the following command:
 `node index.js`
- 
+ or do
+ `npm start` 
 
 
 
